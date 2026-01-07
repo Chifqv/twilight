@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <button class="main" id="main">Главная</button>
-            <button id="actors">Об актерах</button>
-            <button id="fact">Факты</button>
-            <button id="chat">Обсуждение</button>
-        </div>
+        <nav class="menu">
+            <button class="main"type="button">Главная</button>
+            <button type="button" id="actors" >Об актерах</button>
+            <button type="button" id="fact">Факты</button>
+            <button type="button" id="chat">Обсуждение</button>
+        </nav>
     </header>
     <div class="movieinfo">
         <div class="video-background">
@@ -30,14 +30,26 @@
                     <p class="teg">фильм</p>
                     <h2>Сумерки</h2>
                     <p class="infoteg">2008  год • Фэнтези • Романтическое • 2 ч 1 мин</p>
-                    <button class="treiler">
+                    <button type="button" class="treiler" id="treiler">
                         <img src="foto/play.png" width="20px">Смотреть трейлер</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="info">
-        <p>hhh</p>
+    <div class="description">
+        <h3>Описание</h3>
+            <p>Первая часть культовой саги о Белле Свон, Эдварде Каллене, их друзьях и соплеменниках — 
+                вампирах из захолустного городка Америки. В начале фильма Белла простая старшеклассница,
+                 только что сменившая школу. Здесь она пытается жить нормальной жизнью, но её внимание 
+                 упорно привлекают Каллены — приёмные братья и сёстры из причудливого семейства. О них 
+                 идут дикие слухи, однако всё же Белле хочется общаться с... 
+                 <button type="button" id="showmore">Ещё</button>
+            </p>
     </div>
+    <div class="actorslist">
+    </div>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
