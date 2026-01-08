@@ -206,3 +206,19 @@ footer{
     color: #9CA4AB;
     padding-top: 70px;
 }
+
+/*плеер*/
+.back{
+    border: none;
+    margin: 0;
+    padding: 20px 20px;
+    border-radius: 30px;
+    background-color: rgba(160, 160, 160, 0.5);
+    background-image: url(foto/exit.png);
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.back:hover{ 
+    background-color: rgba(255, 255, 255, 0.6); 
+}
