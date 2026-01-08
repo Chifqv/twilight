@@ -146,3 +146,63 @@ video{
 .item h4{
     margin: 12px 0;
 }
+
+/*футер*/
+footer{
+    padding: 70px 75px;
+}
+
+.details{
+    display: grid;
+    grid-template-areas: 
+    "h1 detailsa"
+    "h1 detailsa"
+    "h1 connect";
+    grid-template-columns: 1fr 1fr;
+    gap: 0 300px;
+}
+.detailsa{
+    grid-area: detailsa;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+.detailsa a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.detailsa p{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.details h1{
+    width: 70%;
+    font-size: 38px;
+    margin: 0;
+}
+
+.details h1{
+    margin: 0;
+}
+
+.connect{
+    grid-area: connect;
+    display: flex;
+    justify-content: end;
+}
+
+.connect img{
+    padding-left: 40px;
+}
+
+.footerinfo{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #9CA4AB;
+    padding-top: 70px;
+}
