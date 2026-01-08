@@ -117,6 +117,7 @@ video{
 }
 .description p{
     color: #9CA4AB;
+    padding-bottom: 30px;
 }
 
 .description button{
@@ -124,4 +125,24 @@ video{
     background: none;
     color: #00925D;
     font-weight: bold;
+}
+/*части саги*/
+.parts{
+    padding: 30px 75px;
+    border-top: 2px solid #141516;
+    border-bottom: 2px solid #141516;
+}
+.container{
+    display: inline-flex;
+}
+.item{
+    margin-right: 20px;
+
+}
+.item p{
+    color: #9CA4AB;
+    margin: 0;
+}
+.item h4{
+    margin: 12px 0;
 }
