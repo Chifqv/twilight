@@ -95,22 +95,23 @@ video{
     margin-top: 8px;
     margin-bottom: 24px;
 }
-.textteg button{
+.treiler{
     padding: 12px 24px;
     border-radius: 10px;
     border: none;
     background-color: #00925D;
     color: white;
+    text-decoration: none;
     font-size: 17px;
     margin: 0;
     transition: 0.5s;
 }
-.textteg button img{
+.treiler img{
     transform: translate(0, 3px);
     padding: 0;
     margin-right: 10px;
 }
-.textteg button:hover {
+.treiler:hover {
   box-shadow: 
     inset -8em 0 0 0 #005a39,
     inset 8em 0 0 0 #005a39;  
@@ -306,9 +307,11 @@ footer{
 
 /*плеер*/
 .back{
+    display: block;
     border: none;
     margin: 0;
-    padding: 20px 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: rgba(160, 160, 160, 0.5);
     background-image: url(foto/exit.png);
